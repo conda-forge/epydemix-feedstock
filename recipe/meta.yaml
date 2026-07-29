@@ -1,5 +1,5 @@
 {% set name = "epydemix" %}
-{% set version = "1.3.1" %}
+{% set version = "1.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/epydemix-{{ version }}.tar.gz
-  sha256: 48a71b52f61f69cffcd455434228681255ab11d5d3db813e32d31bd07ef60fbc
+  sha256: daf7c1e892e3ac18e492660585a280f8edca1d2ad57db893a60dbe233abea128
 
 build:
   noarch: python
